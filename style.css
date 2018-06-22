@@ -1,0 +1,198 @@
+
+*{margin: 0; padding: 0;}
+body{font-family:'Helvetica', sans-serif;}
+li{list-style:none;}
+a{text-decoration:none;}
+#t1{
+	color:white;
+	font-weight:bold;
+	font-size:2em;
+}
+#t1 td{
+	padding-right:100px;
+}
+#main_gnb{
+overflow:hidden;
+border-bottom: 1px solid black;
+background: #32394A;
+
+}
+#main_gnb > ul.left{
+overflow: hidden;
+float:left;
+
+}
+#nowtime{
+overflow: hidden;
+float:right;
+font-size:2em;
+color: white;
+vertical-align:center;
+}
+#my_intro{
+
+color:lightgray;
+font-size:1em;
+text-align:justify;
+}
+#my_name{
+font-size:3em;
+color:white;
+}
+#detail{
+font-size:3em;
+color:white;
+}
+#main_gnb>ul.left>li{float: left;}
+
+#main_gnb a{
+	/*레이아웃 설정*/
+	display: block;
+	padding: 10px 20px;
+	/*색상 설정*/
+	border-left: 1px solid #5F6673;
+	border-right: 1px solid #242A37;
+	color: white;
+	font-weight:bold;
+}
+#main_gnb a:hover{
+	color:yellow;
+
+}
+body{min-width:760px;}
+#wrap{overflow: hidden;}
+
+#wrap > #content_wrap{
+float:left;
+width:100%;
+*width:99.9%;
+margin-right:-200px;
+}
+#wrap>#content_wrap>#content{
+
+padding-right:200px;
+}
+#wrap>#content_wrap>#content2{
+
+padding-right:200px;}
+#wrap>#content_wrap>#content3{
+
+padding-right:200px;}
+
+#wrap{background-image:url("image/pattern.png");
+	padding:100px 10px 1500px 10px;
+}
+
+#content{
+	border-left: 1px solid black;
+	
+}
+#content2{
+position:absolute;
+top:80%;
+}
+#content3{
+position:absolute;
+top:140%;
+}
+article{padding:10px;}
+
+#main_footer{
+padding:10px;
+boredr-top: 3px solid black;
+text-align:center;
+}
+
+.image_box{
+position:relative;
+left:20%;
+width:300px%;
+border-radius:50%;
+overflow:hidden;
+}
+.text_title{
+font-size:3em;
+color:white;
+}
+.a_right{
+position:relative;
+left:12%;
+width: 60%;
+float:right;
+}
+.a_left{
+width: 30%;
+float:left;
+}
+.text_content{
+
+color:lightgray;
+font-size:1em;
+text-align:justify;
+}
+#anchor_menu{
+position:absolute;
+text-align:center;
+left:40%;
+top:10%;
+}
+#anchor_menu > a:link{
+color: white;}
+#anchor_menu > a:visited{
+color: white;}
+#anchor_menu > a:hover{
+color: yellow;}
+.tg {	
+width:100%;
+opacity:0.9;
+font-size:1.4em;
+		border: 2px solid white;
+		border-collapse:collapse;
+		text-align:center;
+		color:white;
+		text-shadow:1px 1px 2px #000;
+}
+.tg th{
+		font-size:1.4em;
+		border: 2px solid white;
+		border-collapse:collapse;
+		text-align:center;
+		color:white;
+		text-shadow:1px 1px 2px #000;
+	}
+.tg td{
+		
+		font-size:1.4em;
+	
+		border: 2px solid white;
+		border-collapse:collapse;
+		text-align:center;
+		color:white;
+		text-shadow:1px 1px 2px #000;
+	}
+	.tg  th{
+		border-bottom:5px solid white;
+		background-color:#505466;
+	}
+	.tg  th#time{
+		width:200px;
+	}
+	.tg  tr:nth-child(even){
+		background-color:#d0e4e8;
+	}
+	.tg  td:nth-child(1){
+		border-right:5px solid white;
+	}
+	.tg  tr:nth-child(odd){
+		background-color:#abb2d1
+	}
+	.tg-c3ow1{
+		background-color:#ccdfff;
+	}
+	.tg-us361{
+	
+		background-color:#e8ccff;
+	}
+	.tg td:hover{
+		background-color:#ff0000;
+	}
